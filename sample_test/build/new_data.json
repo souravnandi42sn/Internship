@@ -1,4 +1,1 @@
-{"wine": {"user_id": "00004", "status": "passed"},
- "officeDepot": {"user_id": "00004", "status": "failed"}
-}
-{"officeDepot": {"status": "failed", "user_id": "00004"}}{"wine": {"status": "passed", "user_id": "00004"}}{"wine": {"user_id": "00004", "status": "passed"}}{"officeDepot": {"user_id": "00004", "status": "failed"}}{"officeDepot": {"user_id": "00004", "status": "failed"}}{"wine": {"user_id": "00004", "status": "passed"}}{"officeDepot": {"status": "failed", "user_id": "00004"}}{"wine": {"status": "passed", "user_id": "00004"}}{"officeDepot": {"status": "failed", "user_id": "00004"}}{"wine": {"status": "passed", "user_id": "00004"}}{"wine": {"status": "passed", "user_id": "00004"}}{"officeDepot": {"status": "failed", "user_id": "00004"}}
+{"officeDepot": {"user_id": "00004", "status": "failed"}, "wine": {"user_id": "00004", "status": "passed"}}
