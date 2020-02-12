@@ -1,1 +1,1 @@
-{"officeDepot": {"user_id": "00004", "status": "failed"}, "wine": {"user_id": "00004", "status": "passed"}}
+{"officeDepot": {"status": "failed", "user_id": "00004"}, "wine": {"status": "passed", "user_id": "00004"}}

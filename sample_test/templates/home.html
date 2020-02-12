@@ -24,20 +24,21 @@ tr:nth-child(even) {
 <h2>HTML Table</h2>
 
 <table>
+ {{ report_data }}
   <tr>
     <th>client</th>
     <th>status</th>
     <th>user_id</th>
   </tr>
-{% for client in report_data %}
+  {% for client,values in report_data.items() %}
   <tr>
     <td>{{client}}</td>
-{% if client.status =="passed" %}  
-        <td>&#9989;</td>
+    {% if values["status"] =="passed" %}  
+    <td>&#9989;</td>
     {% else %}
-        <td>&#10060;</td>
+    <td>&#10060;</td>
     {% endif %}
-    <td>{{client.user_id}}</td>
+    <td>{{values["user_id"]}}</td>
   </tr>
 {% endfor %}
 </table>
