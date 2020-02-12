@@ -26,18 +26,18 @@ tr:nth-child(even) {
 <table>
   <tr>
     <th>client</th>
-    <th>userid</th>
     <th>status</th>
+    <th>user_id</th>
   </tr>
 {% for client in report_data %}
   <tr>
     <td>{{client}}</td>
-{% if client.user_id =="passed" %}  
+{% if client.status =="passed" %}  
         <td>&#9989;</td>
     {% else %}
         <td>&#10060;</td>
     {% endif %}
-    <td>{{client.status}}</td>
+    <td>{{client.user_id}}</td>
   </tr>
 {% endfor %}
 </table>

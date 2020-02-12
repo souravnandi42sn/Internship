@@ -20,6 +20,7 @@ def generate_template():
     print("=================================")
     with open(json_name,"r") as file:
         data=json.load(file)
+    file.close()    
     report.write(template.render(report_data=data))
 
     

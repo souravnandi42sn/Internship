@@ -14,9 +14,12 @@ def pytest_configure(config):
     #report_data_path=os.path.join(os.getcwd(),"build","new_data.json")
     report_html_path=os.path.join(os.getcwd(),"report_summary.html") 
     #if(os.path.exists(report_data_path)):
-        #os.remove(report_data_path)        
+        #os.remove(report_data_path) 
+    print("===========================")
+    print(report_html_path)
+    print("=================================")       
     if(os.path.exists(report_html_path)):
-        os.remove(remove_html_path)
+        os.remove("report_summary.html")
 
     
 
